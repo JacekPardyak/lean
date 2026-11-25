@@ -1,3 +1,5 @@
+module
+
 import Mathlib
 
 noncomputable def phi : ℝ :=
@@ -9,4 +11,3 @@ theorem golden_ratio_identity : phi ^ 2 = phi + 1 := by
     rw [Real.sq_sqrt]
     norm_num
   nlinarith
-  

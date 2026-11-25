@@ -1,4 +1,4 @@
-setwd("C:/Users/jacek/OneDrive/Documents/lean/Golden")
+setwd("C:/Users/jacek/OneDrive/Documents/lean/lib")
 getwd()
 
 wynik <- system2(
